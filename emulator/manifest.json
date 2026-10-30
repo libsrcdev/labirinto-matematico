@@ -1,0 +1,80 @@
+{
+  "runtime": "Official Boxedwine legacy browser build (2020-05-03), Wine 1.7.55 / fullWine1.7.55-v8",
+  "runtime_source_commit": null,
+  "source_commit_note": "Official deployed binaries do not identify an exact commit; hashes bind the downloaded artifacts. Do not substitute the 26R1 source tag.",
+  "upstream_source": "https://github.com/danoon2/Boxedwine",
+  "wine_source": "https://github.com/wine-mirror/wine/tree/wine-1.7.55",
+  "downloaded_on": "2026-10-30",
+  "files": [
+    {
+      "file": "legacy/boxedwine.js",
+      "source": "https://www.boxedwine.org/boxedwine/build/default/boxedwine.js",
+      "bytes": 235553,
+      "sha256": "d9fd38e0fe7b02fbf97ae5465d4b12bd9e8394827357730b4942ebdf9f3e171f",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "file": "legacy/boxedwine.wasm",
+      "source": "https://www.boxedwine.org/boxedwine/build/default/boxedwine.wasm",
+      "bytes": 1427522,
+      "sha256": "9151c1b4c9a7867feec456418b3a7a63005ed0fa5fd60746af2d55557e5fa4c2",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "file": "legacy/boxedwine-shell.js",
+      "source": "https://www.boxedwine.org/boxedwine/build/default/boxedwine-shell.js",
+      "bytes": 54385,
+      "sha256": "80636d53e9b5066a4b563d5ded0dfbe65bffcc7d8f6d0a4421254e8bf3958b3b",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "file": "legacy/browserfs.boxedwine.js",
+      "source": "https://www.boxedwine.org/boxedwine/build/default/browserfs.boxedwine.js",
+      "bytes": 845392,
+      "sha256": "edfbf347e357e70ce4cbf22020c8df09a75375fda0b9204e860b87414b1f6995",
+      "license": "MIT; bundled notices retained",
+      "modified": false
+    },
+    {
+      "file": "legacy/jszip.min.js",
+      "source": "https://www.boxedwine.org/boxedwine/build/default/jszip.min.js",
+      "bytes": 76985,
+      "sha256": "9e170a21bb67ccf7dcab122c726e72637105a45d893350afa9b7a38369a0c1fd",
+      "license": "MIT (selected from MIT OR GPL-3.0); Pako MIT/Zlib",
+      "modified": false
+    },
+    {
+      "file": "legacy/boxedwine.zip",
+      "source": "https://www.boxedwine.org/boxedwine/fs/fullWine1.7.55-v8.zip",
+      "bytes": 50012741,
+      "sha256": "0fccfd4239406364c8d5707960411131ab9841056de83e0c27c053a9d4f93c44",
+      "license": "Wine LGPL-2.1-or-later; bundled components retain their licenses",
+      "modified": false
+    },
+    {
+      "file": "legacy/overlay.zip",
+      "source": "https://www.boxedwine.org/boxedwine/apps/wine1.7.55-v8-min-online.zip",
+      "bytes": 9759641,
+      "sha256": "06c831e95eb8d4c157e20b084e7359875bca9a56cd56c41d0e64ea681639e2ac",
+      "license": "Wine LGPL-2.1-or-later; bundled components retain their licenses",
+      "modified": false
+    }
+  ],
+  "application": {
+    "file": "labirintos.zip",
+    "bytes": 2731161,
+    "sha256": "cbd16e0869148e80a8bf42d6e360b0b5e4f7b4a029d208e4dd32443f9717bf0d",
+    "member": "Labirintos.exe",
+    "exe_sha256": "f9d80e450356039c42060389120ba4ff2cbf7f320896db149c39edaa869f3a53",
+    "exe_modified": false
+  },
+  "validation": {
+    "original_menu": "observed in Chrome by primary agent",
+    "original_maze_start": "Enter started the original maze in Chrome",
+    "original_movement": "Right arrow moved the hero in Chrome",
+    "midi_soundtrack": "unverified; browser audio activity does not establish MIDI output"
+  }
+}

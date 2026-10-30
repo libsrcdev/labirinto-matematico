@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101010"><title>Labirintos</title>
+  <link rel="icon" href="assets/sprites/Heroi_000.png"><link rel="stylesheet" href="picker.css">
+</head>
+<body>
+  <main>
+    <h1>Labirintos</h1>
+    <form id="launcher">
+      <fieldset class="versions"><legend>Qual versão?</legend>
+        <label class="version"><input type="radio" name="version" value="recreation" checked><span>Recriação<small>Leve, com modificações opcionais.</small></span></label>
+        <label class="version"><input type="radio" name="version" value="emulator"><span>EXE original<small>Emulador WebAssembly · Boxedwine + Wine</small></span></label>
+      </fieldset>
+      <fieldset id="hacks"><legend>Modificações opcionais</legend>
+        <div class="speed-row"><label><input id="speed-enabled" type="checkbox"> Velocidade do jogo</label><select id="speed" aria-label="Multiplicador de velocidade" disabled><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option></select></div>
+        <label><input id="easy" type="checkbox"> Conta fácil: sempre 1 + 1</label>
+        <p class="hint">A resposta é sempre 2. A velocidade acelera o jogo inteiro.</p>
+      </fieldset>
+      <p id="emulator-note" class="hint" hidden>Executa o Labirintos.exe original. Carrega cerca de 62 MB e pode levar um minuto para iniciar. Sem hacks; música MIDI ainda não verificada.</p>
+      <button type="submit">Jogar</button>
+    </form>
+  </main>
+  <script type="module" src="picker.js"></script>
+</body>
+</html>

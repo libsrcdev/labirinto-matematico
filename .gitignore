@@ -1,0 +1,11 @@
+dist/
+node_modules/
+.DS_Store
+.openai/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+emulator/legacy/
+emulator/labirintos.zip

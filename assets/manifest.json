@@ -1,0 +1,3389 @@
+{
+  "sprites": [
+    {
+      "id": 0,
+      "name": "Heroi",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/Heroi_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "8544b395e8e2db76ac5c7edf3280fece47e38ebb6a80ad3301e3f3e82aa3d8a1",
+          "source_project_offset": 552475,
+          "transparent_pixels": 210
+        },
+        {
+          "path": "assets/sprites/Heroi_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "8544b395e8e2db76ac5c7edf3280fece47e38ebb6a80ad3301e3f3e82aa3d8a1",
+          "source_project_offset": 553417,
+          "transparent_pixels": 210
+        },
+        {
+          "path": "assets/sprites/Heroi_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "160ef93dc30b327f787c7837dd533c7b66cfcb5898b95ea115fb1ca07348093e",
+          "source_project_offset": 554359,
+          "transparent_pixels": 218
+        },
+        {
+          "path": "assets/sprites/Heroi_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "160ef93dc30b327f787c7837dd533c7b66cfcb5898b95ea115fb1ca07348093e",
+          "source_project_offset": 555241,
+          "transparent_pixels": 218
+        },
+        {
+          "path": "assets/sprites/Heroi_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "e35dac3990a7c6f4bd3438a76b0b2f8e38e2d09728dbffdc2ff0acc7150b42c5",
+          "source_project_offset": 556123,
+          "transparent_pixels": 210
+        },
+        {
+          "path": "assets/sprites/Heroi_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "e35dac3990a7c6f4bd3438a76b0b2f8e38e2d09728dbffdc2ff0acc7150b42c5",
+          "source_project_offset": 557065,
+          "transparent_pixels": 210
+        },
+        {
+          "path": "assets/sprites/Heroi_006.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "e35dac3990a7c6f4bd3438a76b0b2f8e38e2d09728dbffdc2ff0acc7150b42c5",
+          "source_project_offset": 558007,
+          "transparent_pixels": 210
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "sprite1",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite1_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            66,
+            65,
+            0
+          ],
+          "sha256": "4be93d91c8ccb8d0e1fbaab73bcc933fc112e1c9bba34a4b8de1e98a9867c883",
+          "source_project_offset": 559024,
+          "transparent_pixels": 73
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "sprite2",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 21,
+      "bbox_top": 3,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite2_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "68dc526075fe597072be676590451f629ba0615b7b47fac40a9d0ef0d0e6798a",
+          "source_project_offset": 560935,
+          "transparent_pixels": 306
+        },
+        {
+          "path": "assets/sprites/sprite2_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "835dc6af3738c0d2c750123242edb88028d080d4959a6697ee21ee81e213d59c",
+          "source_project_offset": 561643,
+          "transparent_pixels": 305
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "sprite3",
+      "width": 32,
+      "height": 32,
+      "bbox_left": 1,
+      "bbox_right": 31,
+      "bbox_bottom": 31,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite3_000.png",
+          "width": 32,
+          "height": 32,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "cb89c3e2e81c0ec042bed5fccebe5725af5103fafb7cbb2df917e4e219bf1fbe",
+          "source_project_offset": 562438,
+          "transparent_pixels": 481
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "um",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 47,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/um_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "406d44f2d483b4f38f8c8b2d841a2a8fcc4784dfc251d172f759a66006a55f35",
+          "source_project_offset": 563209,
+          "transparent_pixels": 1795
+        },
+        {
+          "path": "assets/sprites/um_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "661bd979d1852af93e8c1f992d67e61cea46ab6f4f1d144d33f6f01ca55942a3",
+          "source_project_offset": 565641,
+          "transparent_pixels": 1838
+        },
+        {
+          "path": "assets/sprites/um_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2e18ce72426fed47b7f89be97cf47e52e4bc3f06b5b024ec748edfb6e698d07a",
+          "source_project_offset": 567883,
+          "transparent_pixels": 1844
+        },
+        {
+          "path": "assets/sprites/um_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2abe65f0b5214fa56f0c8e7b6664a3918c9aef689a4cdebc0dd3a557fd128d35",
+          "source_project_offset": 570107,
+          "transparent_pixels": 1796
+        },
+        {
+          "path": "assets/sprites/um_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "f7d73151e4728c1c3f36dc33b959a6f0d83a168523ad597ad2d5ae03f946f2f2",
+          "source_project_offset": 572482,
+          "transparent_pixels": 1797
+        },
+        {
+          "path": "assets/sprites/um_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2057b20a3b896f382a814ae49569a74514130d8ab64b190e5d27584ba20b7e8a",
+          "source_project_offset": 574855,
+          "transparent_pixels": 1751
+        },
+        {
+          "path": "assets/sprites/um_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "e50b0246bcf1cef3967ec35599ca7cb8166984ec685b56875d6cfbfb32eb7643",
+          "source_project_offset": 577322,
+          "transparent_pixels": 1737
+        },
+        {
+          "path": "assets/sprites/um_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "74cefb6c806c742e9adb4b51168933860a00296bc76d3b63d525dbeef5a0058f",
+          "source_project_offset": 579835,
+          "transparent_pixels": 1788
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "dois",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/dois_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "22ada6a2dcb4647e804cce0855baed4d07fc99edf3bf51258cbb1081244c73d6",
+          "source_project_offset": 582331,
+          "transparent_pixels": 1757
+        },
+        {
+          "path": "assets/sprites/dois_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "29fa2ea0eb907f0f2ef5341b8279f247f951321dd7fa7af5133ce35cd6bec10e",
+          "source_project_offset": 584945,
+          "transparent_pixels": 1796
+        },
+        {
+          "path": "assets/sprites/dois_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "985a31e682ca31c9d17618da893bb1a1532fedec805d85ec3d1ad34900accdb8",
+          "source_project_offset": 587377,
+          "transparent_pixels": 1773
+        },
+        {
+          "path": "assets/sprites/dois_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "4decbf0815f8bf836861c179d7bdcf1f9d661f54696b7faa86199aa96277458c",
+          "source_project_offset": 589863,
+          "transparent_pixels": 1765
+        },
+        {
+          "path": "assets/sprites/dois_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "4ebdd2cdb4cb704f80671a5019fe522b65ec3d16847b13450c1abe552b37ba58",
+          "source_project_offset": 592389,
+          "transparent_pixels": 1743
+        },
+        {
+          "path": "assets/sprites/dois_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "e2198286682734492c96afdf6d95612501494c0caa8743761ef3d7af13d34ce4",
+          "source_project_offset": 594988,
+          "transparent_pixels": 1690
+        },
+        {
+          "path": "assets/sprites/dois_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "ef2c111748604da30cd4a8a1d64fac7706de85d1f6b834a34eed19f5a2affe24",
+          "source_project_offset": 597704,
+          "transparent_pixels": 1682
+        },
+        {
+          "path": "assets/sprites/dois_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "cd23d98dcc32fc423a770492bffce9d67e3c5efb24ea6527ae102c38da8d3f83",
+          "source_project_offset": 600427,
+          "transparent_pixels": 1730
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "tres",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/tres_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "80c8d04b83ea24dd9a5645aea6446c6b7fd7f4be6ea40eff4713d4fee4caf831",
+          "source_project_offset": 603157,
+          "transparent_pixels": 1779
+        },
+        {
+          "path": "assets/sprites/tres_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2fc6e8cfd4ef95819e15a0f035b0e3cf7a9306242d502a4151ae0e5e8f8ad593",
+          "source_project_offset": 605724,
+          "transparent_pixels": 1828
+        },
+        {
+          "path": "assets/sprites/tres_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "bcba0ee547cb439fb6714990cc7e0beaed5e5c54e537b1a4293b1412a5aca204",
+          "source_project_offset": 608071,
+          "transparent_pixels": 1791
+        },
+        {
+          "path": "assets/sprites/tres_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "14e9fe96e4ee4935f4e0dcae6d3c89271f9a92a26c7e973176091ebe2a939ec0",
+          "source_project_offset": 610514,
+          "transparent_pixels": 1790
+        },
+        {
+          "path": "assets/sprites/tres_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "54dc9ad98d419922fac45ba8d87b29a88ff3c267d14736ef360bab8a1f83ae66",
+          "source_project_offset": 612978,
+          "transparent_pixels": 1767
+        },
+        {
+          "path": "assets/sprites/tres_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "87ec2043a00b59cb7ff4741921f2b13d972b0b311e283368761e4cb36250cad9",
+          "source_project_offset": 615541,
+          "transparent_pixels": 1730
+        },
+        {
+          "path": "assets/sprites/tres_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "d0a624d716ac81155397af3046d0a6a312a858d288b030dd9e998e6d7817a9a4",
+          "source_project_offset": 618167,
+          "transparent_pixels": 1716
+        },
+        {
+          "path": "assets/sprites/tres_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "961868e933087f7b7b00e2b13a2897c210fd16d15068ff5afd23e49b1ff09ead",
+          "source_project_offset": 620825,
+          "transparent_pixels": 1758
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "quatro",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 47,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/quatro_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "5d189e266c05c4b4f94f0eaf3f7de9478e9841eea1d2db25de7a505553ea4b02",
+          "source_project_offset": 623461,
+          "transparent_pixels": 1744
+        },
+        {
+          "path": "assets/sprites/quatro_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "ca2300251e954ddfc0cdf35ad9279ebb935ea82175bbdcbec1840437b135fb5e",
+          "source_project_offset": 626052,
+          "transparent_pixels": 1789
+        },
+        {
+          "path": "assets/sprites/quatro_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "62ba4821fe9080177a06cbdf63cdc80c2c21cdc044f61b0aa07951ce83173531",
+          "source_project_offset": 628434,
+          "transparent_pixels": 1770
+        },
+        {
+          "path": "assets/sprites/quatro_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "d1e45b36ea04ba36bec02d5d4b67362ad9887199e5a1402aa48132b4cb40768f",
+          "source_project_offset": 630894,
+          "transparent_pixels": 1757
+        },
+        {
+          "path": "assets/sprites/quatro_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "247b5f0386c55208e4462bd07bdce0bec997b422e2925a1933d394eb58a10e69",
+          "source_project_offset": 633412,
+          "transparent_pixels": 1752
+        },
+        {
+          "path": "assets/sprites/quatro_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "a19d612cbfedb9019bdf0e0b26a89440828794ddfadba89e2083a6ca630139e7",
+          "source_project_offset": 635964,
+          "transparent_pixels": 1682
+        },
+        {
+          "path": "assets/sprites/quatro_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "f512e257f9b9cf26598264cd0fc9bd9178924c56e6418d304a473f5013ad9936",
+          "source_project_offset": 638633,
+          "transparent_pixels": 1685
+        },
+        {
+          "path": "assets/sprites/quatro_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "9f789cdc18594b819bd3ac8b7c60561690034da6f6f19675b8fc20f085caba92",
+          "source_project_offset": 641334,
+          "transparent_pixels": 1721
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "cinco",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 47,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/cinco_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "06cacfbdb45d38c1e3a9dec45c24367108b6186ef908118bdcd6833a8bf9f363",
+          "source_project_offset": 644047,
+          "transparent_pixels": 1780
+        },
+        {
+          "path": "assets/sprites/cinco_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "a636d48fd75b7727a2f9c72cd1dcc8cc29f2a8b334491722fb2dcdeb3976dcb7",
+          "source_project_offset": 646593,
+          "transparent_pixels": 1810
+        },
+        {
+          "path": "assets/sprites/cinco_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "68ec02b52a1064930d004f0debc078b0860177a8b6d782a4a627b802a4cddb25",
+          "source_project_offset": 648974,
+          "transparent_pixels": 1802
+        },
+        {
+          "path": "assets/sprites/cinco_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "0c54355f4bd5b93d60eee49de6344c2461d6030913ef690dc31db705cb4b4c62",
+          "source_project_offset": 651343,
+          "transparent_pixels": 1775
+        },
+        {
+          "path": "assets/sprites/cinco_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "b70077cd49e1054a7a99eae8e0d020f50e87cc0185958c0bb6516c39efd7ce39",
+          "source_project_offset": 653793,
+          "transparent_pixels": 1764
+        },
+        {
+          "path": "assets/sprites/cinco_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "5bcea99f97206a35a63bfff3d87e680fb559854090b0e3c7fb31887e3447e2b1",
+          "source_project_offset": 656333,
+          "transparent_pixels": 1711
+        },
+        {
+          "path": "assets/sprites/cinco_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "9fe401ff095719d3e9eb54c718a74b871bedee27bdc4c2be8ee5ea2f061715d1",
+          "source_project_offset": 658950,
+          "transparent_pixels": 1709
+        },
+        {
+          "path": "assets/sprites/cinco_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "880ca889a0c455cfe9b65eae7d4d7599f8022bf2af719ab58a7f279786251f0b",
+          "source_project_offset": 661571,
+          "transparent_pixels": 1749
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "seis",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 47,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/seis_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "71b3ee7dc390ca22a4dddd34fddba20d46a9b16ab7d023ca3c8c44d409a8c279",
+          "source_project_offset": 664208,
+          "transparent_pixels": 1751
+        },
+        {
+          "path": "assets/sprites/seis_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "25f7c66d8d7e41bf0fd63d5fa39774d4478c76ca4b152461ee5d1e2bf09c6956",
+          "source_project_offset": 666873,
+          "transparent_pixels": 1776
+        },
+        {
+          "path": "assets/sprites/seis_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "9868412fd4c668e22fb8877585b432e038b87fe1b319d899a278ce7a2323f648",
+          "source_project_offset": 669405,
+          "transparent_pixels": 1780
+        },
+        {
+          "path": "assets/sprites/seis_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "23f65bf88fa6b197e4c309358d0785e316f26bf6589b44a6553964fb57d679b8",
+          "source_project_offset": 671882,
+          "transparent_pixels": 1777
+        },
+        {
+          "path": "assets/sprites/seis_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "bc7684faef94b684e6e898a8e2f273cc59bf5654adf63062544ed2a6b539cd9c",
+          "source_project_offset": 674391,
+          "transparent_pixels": 1734
+        },
+        {
+          "path": "assets/sprites/seis_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "15a90ac8da39471b9ac697e7a81ebb8b35f9e6facd1df4d6aabcf134707facdd",
+          "source_project_offset": 677032,
+          "transparent_pixels": 1682
+        },
+        {
+          "path": "assets/sprites/seis_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2de5d2eb4366903e81932b2e6f4f47fa7adc3642b46d51c25e6e9a08036c23fa",
+          "source_project_offset": 679779,
+          "transparent_pixels": 1682
+        },
+        {
+          "path": "assets/sprites/seis_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "a07a99ed15969056a5422e0a0ce81c04ad3924457c0afaa0eb3596a1ab951b87",
+          "source_project_offset": 682545,
+          "transparent_pixels": 1725
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "sete",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sete_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "6708d864b3fe139113f4d978984183fafc2f899edcd4e29df45c71c996481316",
+          "source_project_offset": 685304,
+          "transparent_pixels": 1798
+        },
+        {
+          "path": "assets/sprites/sete_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "ad16342453a59b74570b7bff59ee108ed4033e0b2c1d189cb7c44f02fdf743d0",
+          "source_project_offset": 687772,
+          "transparent_pixels": 1831
+        },
+        {
+          "path": "assets/sprites/sete_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "f568a367cb5026263b545aab033b0739877f17a138225c4172d4aeac5deaa98e",
+          "source_project_offset": 690084,
+          "transparent_pixels": 1821
+        },
+        {
+          "path": "assets/sprites/sete_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "e8bda7ab55fd339195b094de2d5429fc7396164f385816ebbbd434b2aa82d3a2",
+          "source_project_offset": 692423,
+          "transparent_pixels": 1803
+        },
+        {
+          "path": "assets/sprites/sete_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "da39170a5d2474db8b8a181e7219d6afb16085d78389e5e64380503a3bbd002e",
+          "source_project_offset": 694846,
+          "transparent_pixels": 1786
+        },
+        {
+          "path": "assets/sprites/sete_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "72ba1038f9d8ee69a975b2f3831a96622c7ad45fb5a96384521f40a671cabc45",
+          "source_project_offset": 697280,
+          "transparent_pixels": 1744
+        },
+        {
+          "path": "assets/sprites/sete_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "5670ca0683b3642d4c94d8dba8c699e4293b582990ed9d1cd4aecb101c6e3be5",
+          "source_project_offset": 699797,
+          "transparent_pixels": 1728
+        },
+        {
+          "path": "assets/sprites/sete_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "9fac25fb51df2e09264bb672ab125930b08ad2b656d99cd09acef62bcd6897b2",
+          "source_project_offset": 702383,
+          "transparent_pixels": 1777
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "oito",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/oito_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "65c98630a65a4c2c365332639c5945dc1fd90d59d4e1896c2d1e12d1910a5f0b",
+          "source_project_offset": 704930,
+          "transparent_pixels": 1727
+        },
+        {
+          "path": "assets/sprites/oito_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "7aeba8a4fbb7538c825b86669999d066a67b745b73f019e0a5decdee82ba9314",
+          "source_project_offset": 707660,
+          "transparent_pixels": 1781
+        },
+        {
+          "path": "assets/sprites/oito_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2cf20fba532f389128f69a157c0805c5e579eba0a638f337be2ebe2a1a6cfa50",
+          "source_project_offset": 710188,
+          "transparent_pixels": 1764
+        },
+        {
+          "path": "assets/sprites/oito_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "db88ea8decb0db2c4591afc5b66758867dba4b215ab511fb200f09f25b4d72ba",
+          "source_project_offset": 712735,
+          "transparent_pixels": 1764
+        },
+        {
+          "path": "assets/sprites/oito_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "85aef477c4015492773f16b1d66853f8e1d81c6c8e3c3c73055ae9ef308ac661",
+          "source_project_offset": 715287,
+          "transparent_pixels": 1714
+        },
+        {
+          "path": "assets/sprites/oito_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "f2a5f4953713c76d7100a0f16f51642a28b97c926b36f7d0d3913656ef5a7ec0",
+          "source_project_offset": 718020,
+          "transparent_pixels": 1669
+        },
+        {
+          "path": "assets/sprites/oito_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "f332a3d6a7257f6b7ccead7f64e2ebb505742ce92f120beb7a8cc530cc845ae2",
+          "source_project_offset": 720817,
+          "transparent_pixels": 1658
+        },
+        {
+          "path": "assets/sprites/oito_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "ed94d1a1af7ec58a3bcdd82bc6f15f17e8143ece8d1bda30bb4fb59b21c4db88",
+          "source_project_offset": 723657,
+          "transparent_pixels": 1706
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "nove",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/nove_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "ceb3de4d770cb8c33a9b0852659e0422324a5d9399a81eea29980553bb624f96",
+          "source_project_offset": 726486,
+          "transparent_pixels": 1747
+        },
+        {
+          "path": "assets/sprites/nove_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "1d688fc3a992f1e3cab62e8db5e4f00bc8c57da62eccd68179b4ed055548a004",
+          "source_project_offset": 729199,
+          "transparent_pixels": 1779
+        },
+        {
+          "path": "assets/sprites/nove_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "d01e08926a3fbd98634fd09c16028868fad86922aad33002ab5acb2b9dadcc93",
+          "source_project_offset": 731735,
+          "transparent_pixels": 1767
+        },
+        {
+          "path": "assets/sprites/nove_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "2cca138770dca378aa626bd4b816f44aae61a8071baf581a6758a7aca2b94576",
+          "source_project_offset": 734271,
+          "transparent_pixels": 1765
+        },
+        {
+          "path": "assets/sprites/nove_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "dd5738a05db0f6e8c18d0b2d271542ea4e3edd238ad5fa0a5c53846d0ee7d10b",
+          "source_project_offset": 736830,
+          "transparent_pixels": 1729
+        },
+        {
+          "path": "assets/sprites/nove_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "dd3d8c6e4ed7460f1e51b89df9dbb7ac67052442d408ae075675245eb2bf3ddc",
+          "source_project_offset": 739523,
+          "transparent_pixels": 1672
+        },
+        {
+          "path": "assets/sprites/nove_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "0e66687494ad592906b2ae31396ddd153377327c1f5b32c52e98bf0ecaa2ca76",
+          "source_project_offset": 742318,
+          "transparent_pixels": 1678
+        },
+        {
+          "path": "assets/sprites/nove_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "b76c505d2cb72be73c5a1a0981f167335ef0d3a2831ceb033147ac4f7b3d3d71",
+          "source_project_offset": 745149,
+          "transparent_pixels": 1711
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "zero",
+      "width": 50,
+      "height": 50,
+      "bbox_left": 4,
+      "bbox_right": 46,
+      "bbox_bottom": 46,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/zero_000.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "4663f8bf8b96321079cbab20d8587caca8c8fb4b166890fabc6a93140f3c13d9",
+          "source_project_offset": 747977,
+          "transparent_pixels": 1739
+        },
+        {
+          "path": "assets/sprites/zero_001.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "5eafa0ef9fdfbfb1439be9cc1cfbf83dd44fef08d1885bdad7c765f29a7eac1b",
+          "source_project_offset": 750666,
+          "transparent_pixels": 1759
+        },
+        {
+          "path": "assets/sprites/zero_002.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "01be37c74be8457e0e2ee60ef5aff073dee3c34eef97c5e0269e75d2ab089959",
+          "source_project_offset": 753253,
+          "transparent_pixels": 1744
+        },
+        {
+          "path": "assets/sprites/zero_003.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "7756601628105f3b7c06e4a217ec21dc4faccae41ecfc67d08f0891d3f72070e",
+          "source_project_offset": 755828,
+          "transparent_pixels": 1761
+        },
+        {
+          "path": "assets/sprites/zero_004.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "14fcf86ead7082543902df5de859b16d5815395bf7131f7aed167e6caf93f85c",
+          "source_project_offset": 758373,
+          "transparent_pixels": 1713
+        },
+        {
+          "path": "assets/sprites/zero_005.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "86ea12973255645107a80aac51582cb1f0726ebcc925de3c878034bee6416148",
+          "source_project_offset": 761047,
+          "transparent_pixels": 1648
+        },
+        {
+          "path": "assets/sprites/zero_006.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "e2fe0ae480bbdd5022eab893e45fdfa8d3deb9efa986d469c470521c71d76e4e",
+          "source_project_offset": 763877,
+          "transparent_pixels": 1657
+        },
+        {
+          "path": "assets/sprites/zero_007.png",
+          "width": 50,
+          "height": 50,
+          "color_key": [
+            255,
+            255,
+            255
+          ],
+          "sha256": "a11fcc4953518451ee31704b97d29fc04fb7900e6153a213bf2dcf6399b99a63",
+          "source_project_offset": 766694,
+          "transparent_pixels": 1693
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "sprite17",
+      "width": 32,
+      "height": 32,
+      "bbox_left": 0,
+      "bbox_right": 31,
+      "bbox_bottom": 31,
+      "bbox_top": 0,
+      "transparent": 0,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite17_000.png",
+          "width": 32,
+          "height": 32,
+          "color_key": null,
+          "sha256": "e5a17ae29a3a1ea313f19d7927a9b005972b77290969c93d2b44e69688902f2c",
+          "source_project_offset": 769532,
+          "transparent_pixels": 0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "sprite19",
+      "width": 14,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 13,
+      "bbox_bottom": 20,
+      "bbox_top": 2,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite19_000.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "22083dcba4d808723046bc15fee870e14d646356a2c08f0a2654a234c4145e87",
+          "source_project_offset": 770355,
+          "transparent_pixels": 200
+        },
+        {
+          "path": "assets/sprites/sprite19_001.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "1e0e6ea998a42b35970bb5cc920bcffc2a3e20c24191a3b9de0d94fa66b7a6dc",
+          "source_project_offset": 771102,
+          "transparent_pixels": 335
+        },
+        {
+          "path": "assets/sprites/sprite19_002.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "a705c8f2775a48f5e910b21b74ea4f9a2f7e4525f14161bb589faae4dccce33b",
+          "source_project_offset": 771272,
+          "transparent_pixels": 321
+        },
+        {
+          "path": "assets/sprites/sprite19_003.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "97ec30265d042cea3000bd96e48d7f18d7b2010ebd6aa48001c6b18c5955c7d2",
+          "source_project_offset": 771496,
+          "transparent_pixels": 298
+        },
+        {
+          "path": "assets/sprites/sprite19_004.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "65aa139ce7e791eeca54c0ff3160d11d81700a8f71867e629747fe2691d71fd0",
+          "source_project_offset": 771830,
+          "transparent_pixels": 295
+        },
+        {
+          "path": "assets/sprites/sprite19_005.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "dc01d2ee0de42143c728b62152db7af4672a1dc333e4fd5f19e5dc152c5add78",
+          "source_project_offset": 772197,
+          "transparent_pixels": 267
+        },
+        {
+          "path": "assets/sprites/sprite19_006.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "6d33602ffc734aac06963404f0dd71c89ce3d883d0c3a1f55905c2083638764f",
+          "source_project_offset": 772664,
+          "transparent_pixels": 303
+        },
+        {
+          "path": "assets/sprites/sprite19_007.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "6ee31e5373818b3d67226088e22a6c8c5afdabc345e3932f3db8b8df8123f7ac",
+          "source_project_offset": 772985,
+          "transparent_pixels": 303
+        },
+        {
+          "path": "assets/sprites/sprite19_008.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "baba93ce12fb588d37bb22556d034027bab6599ca63c7d854bbe45aa761b6748",
+          "source_project_offset": 773321,
+          "transparent_pixels": 328
+        },
+        {
+          "path": "assets/sprites/sprite19_009.png",
+          "width": 14,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "b3f50e91caf4577d52e7ca94f15506f02e30f8115d3322b17164856463cd3e25",
+          "source_project_offset": 773526,
+          "transparent_pixels": 336
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "sprite24",
+      "width": 32,
+      "height": 32,
+      "bbox_left": 2,
+      "bbox_right": 31,
+      "bbox_bottom": 31,
+      "bbox_top": 27,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite24_000.png",
+          "width": 32,
+          "height": 32,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "2eb165a80cd4a259ec856d1e1301e5842cf71a87abed2ef290d22a10c65c54f5",
+          "source_project_offset": 773781,
+          "transparent_pixels": 874
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "sprite25",
+      "width": 397,
+      "height": 38,
+      "bbox_left": 3,
+      "bbox_right": 386,
+      "bbox_bottom": 35,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite25_000.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "fb62fbc81ebeccd0e0e03eeb6f686b6650ddc48134800972c37467adfefabaa2",
+          "source_project_offset": 774081,
+          "transparent_pixels": 9343
+        },
+        {
+          "path": "assets/sprites/sprite25_001.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "fb62fbc81ebeccd0e0e03eeb6f686b6650ddc48134800972c37467adfefabaa2",
+          "source_project_offset": 780295,
+          "transparent_pixels": 9343
+        },
+        {
+          "path": "assets/sprites/sprite25_002.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "a67d50652834038a45407c45b1f131a3699670b5d3cd12a365783cbbb92a301f",
+          "source_project_offset": 786509,
+          "transparent_pixels": 9343
+        },
+        {
+          "path": "assets/sprites/sprite25_003.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "a67d50652834038a45407c45b1f131a3699670b5d3cd12a365783cbbb92a301f",
+          "source_project_offset": 792717,
+          "transparent_pixels": 9343
+        },
+        {
+          "path": "assets/sprites/sprite25_004.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "508fb4989c40f049144f4ce1e3df9f0fd769d61098345f875b3931f85e2375c1",
+          "source_project_offset": 798925,
+          "transparent_pixels": 9343
+        },
+        {
+          "path": "assets/sprites/sprite25_005.png",
+          "width": 397,
+          "height": 38,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "508fb4989c40f049144f4ce1e3df9f0fd769d61098345f875b3931f85e2375c1",
+          "source_project_offset": 805148,
+          "transparent_pixels": 9343
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "sprite27",
+      "width": 48,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 47,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite27_000.png",
+          "width": 48,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "bd6815e673839379c4f87374e1376f928087c93bd109eb215d7884f14e0c97e9",
+          "source_project_offset": 811451,
+          "transparent_pixels": 146
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "sprite28",
+      "width": 15,
+      "height": 15,
+      "bbox_left": 0,
+      "bbox_right": 14,
+      "bbox_bottom": 14,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite28_000.png",
+          "width": 15,
+          "height": 15,
+          "color_key": [
+            66,
+            65,
+            0
+          ],
+          "sha256": "b0719386046ace539f7ffa9e49bd4e16bce65abfe18a0e521189c8699e42ffe4",
+          "source_project_offset": 814359,
+          "transparent_pixels": 48
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "sprite29",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite29_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "c922025738d7011110e94cdd3b76f6f68e6fce7c207df2630387264a76dd1255",
+          "source_project_offset": 814869,
+          "transparent_pixels": 1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "sprite30",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite30_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e924dfba5a604349e6d11a674c4ea73a7078915c3804acfa0b4eed2979762c06",
+          "source_project_offset": 815402,
+          "transparent_pixels": 249
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "sprite31",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 22,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite31_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e20c7b5095cd0406b0ff7858873408945e90b4366a2b05bab7fe4f831d703eff",
+          "source_project_offset": 816254,
+          "transparent_pixels": 174
+        },
+        {
+          "path": "assets/sprites/sprite31_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e20c7b5095cd0406b0ff7858873408945e90b4366a2b05bab7fe4f831d703eff",
+          "source_project_offset": 817244,
+          "transparent_pixels": 174
+        },
+        {
+          "path": "assets/sprites/sprite31_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "145d15b307994e420c9de38fe07aec8077136d87ca50bc7716d88515d4c60a55",
+          "source_project_offset": 818234,
+          "transparent_pixels": 184
+        },
+        {
+          "path": "assets/sprites/sprite31_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "145d15b307994e420c9de38fe07aec8077136d87ca50bc7716d88515d4c60a55",
+          "source_project_offset": 819214,
+          "transparent_pixels": 184
+        },
+        {
+          "path": "assets/sprites/sprite31_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "0e7c9077c4d5410c34f99c4b46b6aaca73abea40d47461b1e212e68873668ee3",
+          "source_project_offset": 820194,
+          "transparent_pixels": 218
+        },
+        {
+          "path": "assets/sprites/sprite31_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "0e7c9077c4d5410c34f99c4b46b6aaca73abea40d47461b1e212e68873668ee3",
+          "source_project_offset": 821093,
+          "transparent_pixels": 218
+        },
+        {
+          "path": "assets/sprites/sprite31_006.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "145d15b307994e420c9de38fe07aec8077136d87ca50bc7716d88515d4c60a55",
+          "source_project_offset": 821992,
+          "transparent_pixels": 184
+        },
+        {
+          "path": "assets/sprites/sprite31_007.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "145d15b307994e420c9de38fe07aec8077136d87ca50bc7716d88515d4c60a55",
+          "source_project_offset": 822972,
+          "transparent_pixels": 184
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "sprite32",
+      "width": 16,
+      "height": 65,
+      "bbox_left": 0,
+      "bbox_right": 14,
+      "bbox_bottom": 62,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite32_000.png",
+          "width": 16,
+          "height": 65,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "230886cfbc6baf1785bf85f7054b18b88379a26a535f34ceea46f485a3df836d",
+          "source_project_offset": 824028,
+          "transparent_pixels": 439
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "sprite33",
+      "width": 34,
+      "height": 65,
+      "bbox_left": 1,
+      "bbox_right": 31,
+      "bbox_bottom": 62,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite33_000.png",
+          "width": 34,
+          "height": 65,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "d87865a760c9be3029853af31276649c27b830f7b4c9f63f061327ceac5da82a",
+          "source_project_offset": 825396,
+          "transparent_pixels": 1373
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Heroip",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/Heroip_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "5dc7fffc64636e609d8027449cd0ef08c73472af46d5167476762b078a29fdf4",
+          "source_project_offset": 827106,
+          "transparent_pixels": 264
+        },
+        {
+          "path": "assets/sprites/Heroip_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "5dc7fffc64636e609d8027449cd0ef08c73472af46d5167476762b078a29fdf4",
+          "source_project_offset": 828038,
+          "transparent_pixels": 264
+        },
+        {
+          "path": "assets/sprites/Heroip_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "5dc7fffc64636e609d8027449cd0ef08c73472af46d5167476762b078a29fdf4",
+          "source_project_offset": 828970,
+          "transparent_pixels": 264
+        },
+        {
+          "path": "assets/sprites/Heroip_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "03b7f58ea4a7c21e4e938a4789149ad43f8f2792aac39ab4fb42c3289c209bb3",
+          "source_project_offset": 829902,
+          "transparent_pixels": 209
+        },
+        {
+          "path": "assets/sprites/Heroip_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "03b7f58ea4a7c21e4e938a4789149ad43f8f2792aac39ab4fb42c3289c209bb3",
+          "source_project_offset": 830923,
+          "transparent_pixels": 209
+        },
+        {
+          "path": "assets/sprites/Heroip_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "03b7f58ea4a7c21e4e938a4789149ad43f8f2792aac39ab4fb42c3289c209bb3",
+          "source_project_offset": 831944,
+          "transparent_pixels": 209
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "sprite36",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 2,
+      "bbox_right": 19,
+      "bbox_bottom": 21,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite36_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "b5d4e089b9cb451bba906ea87c10b7f261a6863108f31bfa23278443370bc0d3",
+          "source_project_offset": 833041,
+          "transparent_pixels": 293
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "sprite38",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 21,
+      "bbox_bottom": 22,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite38_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "5fac2348224d8a9191ebf6148b8fa20fba7b85304f4e492afee780e1af25aecc",
+          "source_project_offset": 833903,
+          "transparent_pixels": 344
+        },
+        {
+          "path": "assets/sprites/sprite38_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "5fac2348224d8a9191ebf6148b8fa20fba7b85304f4e492afee780e1af25aecc",
+          "source_project_offset": 834752,
+          "transparent_pixels": 344
+        },
+        {
+          "path": "assets/sprites/sprite38_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "5fac2348224d8a9191ebf6148b8fa20fba7b85304f4e492afee780e1af25aecc",
+          "source_project_offset": 835601,
+          "transparent_pixels": 344
+        },
+        {
+          "path": "assets/sprites/sprite38_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "979f868b9f98462e4fcd29d9892c9f9fbbb179a2c44e3deeb9d1dd34562b679d",
+          "source_project_offset": 836450,
+          "transparent_pixels": 450
+        },
+        {
+          "path": "assets/sprites/sprite38_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "979f868b9f98462e4fcd29d9892c9f9fbbb179a2c44e3deeb9d1dd34562b679d",
+          "source_project_offset": 837235,
+          "transparent_pixels": 450
+        },
+        {
+          "path": "assets/sprites/sprite38_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "9d1303efb56792350162f10627e9b7295298dd44b5bdbf8ef498bbfed1491445",
+          "source_project_offset": 838020,
+          "transparent_pixels": 450
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "sprite39",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 1,
+      "bbox_right": 23,
+      "bbox_bottom": 22,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite39_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e17f38b3671c8cf45068bd90e81fe53cb311f336244e20c36f59fdba1458db4c",
+          "source_project_offset": 838848,
+          "transparent_pixels": 342
+        },
+        {
+          "path": "assets/sprites/sprite39_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e17f38b3671c8cf45068bd90e81fe53cb311f336244e20c36f59fdba1458db4c",
+          "source_project_offset": 839672,
+          "transparent_pixels": 342
+        },
+        {
+          "path": "assets/sprites/sprite39_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "e17f38b3671c8cf45068bd90e81fe53cb311f336244e20c36f59fdba1458db4c",
+          "source_project_offset": 840496,
+          "transparent_pixels": 342
+        },
+        {
+          "path": "assets/sprites/sprite39_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "22d8f7c6d5e0cde238cd9e324b2d04503cfc4f616e3a97528c29118cc0f7607a",
+          "source_project_offset": 841320,
+          "transparent_pixels": 448
+        },
+        {
+          "path": "assets/sprites/sprite39_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "22d8f7c6d5e0cde238cd9e324b2d04503cfc4f616e3a97528c29118cc0f7607a",
+          "source_project_offset": 842142,
+          "transparent_pixels": 448
+        },
+        {
+          "path": "assets/sprites/sprite39_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "10ffa25624ccf69bdb1729fdc802d9168472bf090bcfbed7e581973184df5691",
+          "source_project_offset": 842964,
+          "transparent_pixels": 448
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "sprite40",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite40_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            66,
+            65,
+            0
+          ],
+          "sha256": "3523fcfbdb8ca0ba23273e1bc110b2b11277d91bdc86428dfe643fa3790a8994",
+          "source_project_offset": 843812,
+          "transparent_pixels": 73
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "sprite42",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite42_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "2ccebeb8bcc959691d489bc19b591d64d418540add28f53141f75a7868504398",
+          "source_project_offset": 845720,
+          "transparent_pixels": 73
+        },
+        {
+          "path": "assets/sprites/sprite42_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "df337fbdb9bed72f4f31abc2672a4e4a3ddf6c709ce8afde7e3d9fd7774bca72",
+          "source_project_offset": 847294,
+          "transparent_pixels": 74
+        },
+        {
+          "path": "assets/sprites/sprite42_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "95b1f430210fdcb17d046b44f3b66e469d9633898bb49d29e7cd47eb3d38ff8f",
+          "source_project_offset": 848945,
+          "transparent_pixels": 73
+        },
+        {
+          "path": "assets/sprites/sprite42_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "a11de65744b7d9d76122a6998de018411171a1ec43fff0729b250bdafa931c2f",
+          "source_project_offset": 850563,
+          "transparent_pixels": 73
+        },
+        {
+          "path": "assets/sprites/sprite42_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            64,
+            64,
+            0
+          ],
+          "sha256": "68c6f49105001d9de77aebdb9aa6a9915060eef0c79932bbea9afe8bbf5fcb3d",
+          "source_project_offset": 852225,
+          "transparent_pixels": 73
+        },
+        {
+          "path": "assets/sprites/sprite42_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            66,
+            65,
+            0
+          ],
+          "sha256": "847a3b817d8ce134ebdef5e6c9d87d6a01b33ba97c36b801a06bf31c7d3f1d9e",
+          "source_project_offset": 853914,
+          "transparent_pixels": 73
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "sprite43",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 0,
+      "bbox_right": 23,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite43_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "143c1ddbefb3cf8007ef3ecc6cd181b59b92b3f9c4797cb1dfdf1ca504218c99",
+          "source_project_offset": 855806,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "819897c35ab32341fa01d146fc2a9a4a042ea2c230a2a52c8552cd28865512a6",
+          "source_project_offset": 856260,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "a33a7623a0cc5cff95f79c4e9da951a57bfd6725c76f7329446d60ba2cb53134",
+          "source_project_offset": 856711,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "fb2fe933c63a62d78e2f20fc2c692138c7820ccf2463dbc069d34379e34c055f",
+          "source_project_offset": 857162,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "efb6044cddb0d22ae5758e2cbbce50394d4921f138d61a6a94a42617f4405650",
+          "source_project_offset": 857613,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "69dfbc9acf42394909efb0fb85919769b4c67d3168b01b24ec6b3e0ece262579",
+          "source_project_offset": 858064,
+          "transparent_pixels": 1
+        },
+        {
+          "path": "assets/sprites/sprite43_006.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            127,
+            0
+          ],
+          "sha256": "5296d5f69ec3dcacf644dbc2c46d4ccafaa3a317db25db45cb78795d811a1218",
+          "source_project_offset": 858515,
+          "transparent_pixels": 1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "sprite44",
+      "width": 300,
+      "height": 100,
+      "bbox_left": 1,
+      "bbox_right": 297,
+      "bbox_bottom": 99,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite44_000.png",
+          "width": 300,
+          "height": 100,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "c493a88ece4f0c45f015fc3b0a652afe9fb661e34ae5bc2e5288ba701d6ed21e",
+          "source_project_offset": 859042,
+          "transparent_pixels": 6126
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "sprite45",
+      "width": 24,
+      "height": 24,
+      "bbox_left": 2,
+      "bbox_right": 19,
+      "bbox_bottom": 23,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite45_000.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "d937c519a2ef490c398d09defd82d5eaa6b934e38db5b5495e985a353ebfdf87",
+          "source_project_offset": 866622,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_001.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "d937c519a2ef490c398d09defd82d5eaa6b934e38db5b5495e985a353ebfdf87",
+          "source_project_offset": 867291,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_002.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "d937c519a2ef490c398d09defd82d5eaa6b934e38db5b5495e985a353ebfdf87",
+          "source_project_offset": 867960,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_003.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "478cd8ed9b74074ef535b5662de3082813ec43d479df0d1f4bf2fac9bfdadde1",
+          "source_project_offset": 868629,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_004.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "8e30bc37a24aecdd807e86124002ff13c3658b02882c83305da62a62bb114842",
+          "source_project_offset": 869292,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_005.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "8e30bc37a24aecdd807e86124002ff13c3658b02882c83305da62a62bb114842",
+          "source_project_offset": 869797,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_006.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "8e30bc37a24aecdd807e86124002ff13c3658b02882c83305da62a62bb114842",
+          "source_project_offset": 870302,
+          "transparent_pixels": 144
+        },
+        {
+          "path": "assets/sprites/sprite45_007.png",
+          "width": 24,
+          "height": 24,
+          "color_key": [
+            0,
+            128,
+            0
+          ],
+          "sha256": "0aa984b1dee27b55a42d741f23cb19d66547b6a5a48612d0d72b2e45587e0675",
+          "source_project_offset": 870807,
+          "transparent_pixels": 144
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "sprite46",
+      "width": 245,
+      "height": 125,
+      "bbox_left": 11,
+      "bbox_right": 230,
+      "bbox_bottom": 118,
+      "bbox_top": 5,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite46_000.png",
+          "width": 245,
+          "height": 125,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "4c5222caaa01264220cc90f9e43681f12ec738409bad0927d9d829036bee7888",
+          "source_project_offset": 871385,
+          "transparent_pixels": 15967
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "sprite47",
+      "width": 32,
+      "height": 32,
+      "bbox_left": 12,
+      "bbox_right": 19,
+      "bbox_bottom": 18,
+      "bbox_top": 11,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite47_000.png",
+          "width": 32,
+          "height": 32,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "1529c4ea804a23df0c11ea94fa60566a90773a31e9ae2405b749c054e9056fab",
+          "source_project_offset": 901837,
+          "transparent_pixels": 972
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "sprite48",
+      "width": 32,
+      "height": 32,
+      "bbox_left": 2,
+      "bbox_right": 27,
+      "bbox_bottom": 31,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite48_000.png",
+          "width": 32,
+          "height": 32,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "d7d8e25884b13a5ebb815954000ee6d32537b328f5fd96b38236e52cbd8663de",
+          "source_project_offset": 902181,
+          "transparent_pixels": 356
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "sprite49",
+      "width": 96,
+      "height": 21,
+      "bbox_left": 1,
+      "bbox_right": 94,
+      "bbox_bottom": 19,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite49_000.png",
+          "width": 96,
+          "height": 21,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "106f84510901db699ab75cfbc8e35d236de1f3c5a5948557cacad6b30f932263",
+          "source_project_offset": 903432,
+          "transparent_pixels": 410
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "sprite50",
+      "width": 96,
+      "height": 21,
+      "bbox_left": 1,
+      "bbox_right": 94,
+      "bbox_bottom": 19,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite50_000.png",
+          "width": 96,
+          "height": 21,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "36d0c6007fcf847e4158c388389ab3865ee0b666f45a10256796e16e13ad261b",
+          "source_project_offset": 904240,
+          "transparent_pixels": 410
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "sprite51",
+      "width": 24,
+      "height": 32,
+      "bbox_left": 1,
+      "bbox_right": 22,
+      "bbox_bottom": 30,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite51_000.png",
+          "width": 24,
+          "height": 32,
+          "color_key": [
+            73,
+            133,
+            255
+          ],
+          "sha256": "b4e13f4864732923a5291cf9c9fe206d0d7759721a4b13c83adf30495dc2b5de",
+          "source_project_offset": 905020,
+          "transparent_pixels": 136
+        },
+        {
+          "path": "assets/sprites/sprite51_001.png",
+          "width": 24,
+          "height": 32,
+          "color_key": [
+            73,
+            133,
+            255
+          ],
+          "sha256": "df6bbe5841ca0aa71caa1d6050d77249e3a7b91e3f4edb5ecfda0a4f4b9eb4d1",
+          "source_project_offset": 905599,
+          "transparent_pixels": 454
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "sprite52",
+      "width": 484,
+      "height": 237,
+      "bbox_left": 0,
+      "bbox_right": 479,
+      "bbox_bottom": 230,
+      "bbox_top": 0,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite52_000.png",
+          "width": 484,
+          "height": 237,
+          "color_key": [
+            128,
+            0,
+            128
+          ],
+          "sha256": "4c2777cafa9a18237f5f7ba9c0a9dfb173b35bcbb5c36ac628b8e80b6a82a3c5",
+          "source_project_offset": 907154,
+          "transparent_pixels": 39723
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "sprite53",
+      "width": 96,
+      "height": 21,
+      "bbox_left": 1,
+      "bbox_right": 94,
+      "bbox_bottom": 19,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite53_000.png",
+          "width": 96,
+          "height": 21,
+          "color_key": [
+            64,
+            128,
+            0
+          ],
+          "sha256": "1c84301a1ab8fe175210daaf9bbfbbe275044e53d805764c3f2659ed48694cd3",
+          "source_project_offset": 962993,
+          "transparent_pixels": 410
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "sprite54",
+      "width": 159,
+      "height": 50,
+      "bbox_left": 0,
+      "bbox_right": 156,
+      "bbox_bottom": 47,
+      "bbox_top": 1,
+      "transparent": 1,
+      "bbox_mode": 0,
+      "precise_collision": 1,
+      "use_video_memory": 1,
+      "load_on_use": 0,
+      "origin_x": 0,
+      "origin_y": 0,
+      "frames": [
+        {
+          "path": "assets/sprites/sprite54_000.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "0545319749abce2e3ae9711ea9192df23ae4bc72ea0bede4b1110e03f0268cfd",
+          "source_project_offset": 963877,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_001.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "0545319749abce2e3ae9711ea9192df23ae4bc72ea0bede4b1110e03f0268cfd",
+          "source_project_offset": 966131,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_002.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "0545319749abce2e3ae9711ea9192df23ae4bc72ea0bede4b1110e03f0268cfd",
+          "source_project_offset": 968385,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_003.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "0545319749abce2e3ae9711ea9192df23ae4bc72ea0bede4b1110e03f0268cfd",
+          "source_project_offset": 970639,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_004.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "3229c6f4d1c50d379f244a79b00b33b515f77a457fc65fce2e7e02ffbe74a502",
+          "source_project_offset": 972893,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_005.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "3229c6f4d1c50d379f244a79b00b33b515f77a457fc65fce2e7e02ffbe74a502",
+          "source_project_offset": 975144,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_006.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "3229c6f4d1c50d379f244a79b00b33b515f77a457fc65fce2e7e02ffbe74a502",
+          "source_project_offset": 977395,
+          "transparent_pixels": 6071
+        },
+        {
+          "path": "assets/sprites/sprite54_007.png",
+          "width": 159,
+          "height": 50,
+          "color_key": [
+            255,
+            0,
+            255
+          ],
+          "sha256": "3229c6f4d1c50d379f244a79b00b33b515f77a457fc65fce2e7e02ffbe74a502",
+          "source_project_offset": 979646,
+          "transparent_pixels": 6071
+        }
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": 0,
+      "name": "background0",
+      "width": 96,
+      "height": 96,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background0.png",
+        "width": 96,
+        "height": 96,
+        "color_key": null,
+        "sha256": "6ec27ca2a7a7dd65c4b0dcd5fdc6966635ba23022aa595d29a6e0599ff9e95d3",
+        "source_project_offset": 981952,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "background2",
+      "width": 167,
+      "height": 167,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background2.png",
+        "width": 167,
+        "height": 167,
+        "color_key": null,
+        "sha256": "ab85556454ba3ccaf516ed0395a25b3afc401054444a2e8126a173decc839b98",
+        "source_project_offset": 994103,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "background3",
+      "width": 50,
+      "height": 75,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background3.png",
+        "width": 50,
+        "height": 75,
+        "color_key": null,
+        "sha256": "5bd0c7ba10563ac056416e08ad5ff7214092618c4505b490eda26f86ef0fb816",
+        "source_project_offset": 1019345,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "background5",
+      "width": 24,
+      "height": 24,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background5.png",
+        "width": 24,
+        "height": 24,
+        "color_key": null,
+        "sha256": "023af23bfdd859a82704f573c0565d7bc4493d0b42f12baf5fc5d19a5aec3538",
+        "source_project_offset": 1026583,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "background6",
+      "width": 300,
+      "height": 225,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background6.png",
+        "width": 300,
+        "height": 225,
+        "color_key": null,
+        "sha256": "8a33d28191daa1be2d6c0e08c0a5db40e545be493fbadf5c3e45684a81819c7d",
+        "source_project_offset": 1027818,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": "background7",
+      "width": 84,
+      "height": 84,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background7.png",
+        "width": 84,
+        "height": 84,
+        "color_key": null,
+        "sha256": "4d860a5356a1b0d073088688b79e1b18fb0a5bd90cde6ad2c23e811377f4f414",
+        "source_project_offset": 1148215,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": "background8",
+      "width": 64,
+      "height": 64,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background8.png",
+        "width": 64,
+        "height": 64,
+        "color_key": null,
+        "sha256": "9e9ad7333254259642e0c9d61e94a56e35b0146897a61d48d6e549b7baa66a75",
+        "source_project_offset": 1155005,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "background9",
+      "width": 536,
+      "height": 369,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background9.png",
+        "width": 536,
+        "height": 369,
+        "color_key": null,
+        "sha256": "776c151a88ee273f2442437a5fbc435b6690b33343b35aa72e653e66c232b914",
+        "source_project_offset": 1163094,
+        "transparent_pixels": 0
+      }
+    },
+    {
+      "id": 10,
+      "name": "background10",
+      "width": 507,
+      "height": 69,
+      "transparent": 1,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background10.png",
+        "width": 507,
+        "height": 69,
+        "color_key": [
+          64,
+          128,
+          0
+        ],
+        "sha256": "3ed4be1c347db920fcab3c9475e1ee188a365914bcfc7cb4832efc7edd0cf797",
+        "source_project_offset": 1370322,
+        "transparent_pixels": 24994
+      }
+    },
+    {
+      "id": 11,
+      "name": "background11",
+      "width": 128,
+      "height": 12,
+      "transparent": 0,
+      "use_video_memory": 1,
+      "load_on_use": 1,
+      "image": {
+        "path": "assets/backgrounds/background11.png",
+        "width": 128,
+        "height": 12,
+        "color_key": null,
+        "sha256": "a646bc7b1962474b2c0a1779729a9cea04598b23b894f740400ecac79264e28e",
+        "source_project_offset": 1382609,
+        "transparent_pixels": 0
+      }
+    }
+  ],
+  "interface": [
+    {
+      "name": "loading",
+      "path": "assets/interface/loading.png",
+      "width": 438,
+      "height": 480
+    },
+    {
+      "name": "splash",
+      "path": "assets/interface/splash.png",
+      "width": 363,
+      "height": 59
+    }
+  ],
+  "source_sha256": "f9d80e450356039c42060389120ba4ff2cbf7f320896db149c39edaa869f3a53",
+  "color_key_rule": "Per-frame bottom-left pixel, applied only to resources marked transparent.",
+  "format_reference": "https://enigma-dev.org/docs/Wiki/GM_format",
+  "transparency_reference": "https://theouterlinux.gitlab.io/Downloads/GameMaker4.3.pdf",
+  "sprite_slots": 55,
+  "background_slots": 12
+}

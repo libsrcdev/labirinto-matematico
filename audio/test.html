@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8"><title>Labirintos silent audio validation</title>
+<style>body{font:16px system-ui;background:#101722;color:#e0e9ef;margin:32px}pre{white-space:pre-wrap}</style>
+<h1>Audio validation (silent offline rendering)</h1><pre id="result">Running…</pre>
+<script type="module">
+import {GameAudio,parseMidi} from '../audio.js';
+const results=[];
+try {
+  const NativeContext=globalThis.AudioContext;
+  for(let id=6;id<=13;id++){
+    globalThis.AudioContext=class extends OfflineAudioContext {
+      constructor(){super(2,44100*4,44100);}
+      get state(){return 'running';}
+    };
+    const audio=new GameAudio();await audio.unlock();globalThis.AudioContext=NativeContext;
+    const midi=parseMidi(await (await fetch(`sound${id}.mid`)).arrayBuffer());
+    for(const e of midi.events){if(e.time>=3.8)break;audio._event(e,e.time+.01);}
+    audio._silence(3.85);
+    const buffer=await audio.context.startRendering();
+    let peak=0,square=0;
+    for(const value of buffer.getChannelData(0)){
+      if(!Number.isFinite(value))throw Error(`Track ${id}: non-finite sample`);
+      peak=Math.max(peak,Math.abs(value));square+=value*value;
+    }
+    if(peak===0)throw Error(`Track ${id}: silent output`);
+    if(peak>1)throw Error(`Track ${id}: clipping (${peak})`);
+    results.push({id,duration:midi.duration,events:midi.events.length,peak,rms:Math.sqrt(square/buffer.length)});
+    document.querySelector('#result').textContent=JSON.stringify(results,null,2);
+  }
+  globalThis.audioTestResult={ok:true,results};
+  document.title='PASS — Labirintos audio';
+}catch(error){
+  globalThis.audioTestResult={ok:false,results,error:String(error),stack:error.stack};
+  document.querySelector('#result').textContent=JSON.stringify(globalThis.audioTestResult,null,2);document.title='FAIL — Labirintos audio';
+}
+</script>

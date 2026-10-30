@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><title>Checking game-only display</title>
+<style>body{background:#222;color:white;font:14px monospace}iframe{width:390px;height:844px;border:0}pre{white-space:pre-wrap}</style>
+<pre id="result">Loading…</pre><iframe title="Game viewport" src="../recreation.html?debug=1"></iframe>
+<script type="module">
+const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+const timer=setInterval(()=>{
+ try{
+  const win=frame.contentWindow,api=win.__labirintos;if(!api)return;
+  clearInterval(timer);api.audio.setMuted(true);
+  const doc=frame.contentDocument,canvas=doc.querySelector('canvas');
+  api.game.loadRoom(1);
+  doc.dispatchEvent(new win.KeyboardEvent('keydown',{key:'F1',code:'F1',bubbles:true}));api.game.step();
+  const originalHelp=api.game.roomId===15;
+  api.game.loadRoom(1);
+  doc.dispatchEvent(new win.KeyboardEvent('keydown',{key:'Enter',code:'Enter',bubbles:true}));api.game.step();
+  const originalStart=api.game.roomId===2;
+  const before=api.game.player.x;
+  doc.dispatchEvent(new win.KeyboardEvent('keydown',{key:'ArrowRight',code:'ArrowRight',bubbles:true}));api.game.step();
+  doc.dispatchEvent(new win.KeyboardEvent('keyup',{key:'ArrowRight',code:'ArrowRight',bubbles:true}));
+  const originalMovement=api.game.player.x===before+8;
+  api.game.render(canvas.getContext('2d'));win.dispatchEvent(new win.Event('resize'));api.game.paused=true;
+  const r=canvas.getBoundingClientRect();
+  const checks={onlyGame:doc.body.children.length===2&&doc.body.firstElementChild===canvas,externalControls:doc.querySelectorAll('button,header,footer,nav,dialog').length,noOverflow:doc.documentElement.scrollWidth===390&&doc.documentElement.scrollHeight===844,aspectRatio:Math.abs(r.width/r.height-2)<.01,originalHelp,originalStart,originalMovement};
+  const ok=checks.onlyGame&&!checks.externalControls&&checks.noOverflow&&checks.aspectRatio&&originalHelp&&originalStart&&originalMovement;
+  result.textContent=(ok?'PASS':'FAIL')+' '+JSON.stringify(checks,null,2);document.title=(ok?'PASS':'FAIL')+' — game-only display';
+ }catch(e){clearInterval(timer);result.textContent='FAIL '+e.stack;document.title='FAIL — game-only display';}
+},100);
+</script>

@@ -1,0 +1,69 @@
+EMULATOR PROVENANCE — WORKING LEGACY BUILD
+
+Runtime identity
+The working player uses the official Boxedwine legacy browser distribution under
+https://www.boxedwine.org/boxedwine/build/default/
+The server dates the JavaScript/WASM files to 2020-05-03. It does not publish an
+exact source commit for those deployed binaries. This is NOT Boxedwine 26R1.
+manifest.json records the exact source URL, size and SHA-256 of every runtime file.
+scripts/prepare-runtime.py verifies those locked digests before packaging.
+
+Boxedwine
+Copyright Boxedwine contributors. GNU GPL version 2 or later.
+Unmodified supplied files: legacy/boxedwine.js, legacy/boxedwine.wasm,
+legacy/boxedwine-shell.js.
+Source repository and history: https://github.com/danoon2/Boxedwine
+Historical source tree immediately preceding the server's artifact date:
+https://github.com/danoon2/Boxedwine/tree/93adb2edd2e35b5a52cb6a0747280e2cdcc2f829
+That historical tree is a reference, not a verified exact binary/source match.
+License copy: licenses/Boxedwine-GPL-2.0.txt
+
+Wine 1.7.55 and the browser filesystem
+Copyright Wine project authors. GNU LGPL version 2.1 or later.
+The root archive's wineVersion.txt explicitly identifies Wine 1.7.55.
+Unmodified upstream archives:
+https://www.boxedwine.org/boxedwine/fs/fullWine1.7.55-v8.zip
+https://www.boxedwine.org/boxedwine/apps/wine1.7.55-v8-min-online.zip
+Stored locally as legacy/boxedwine.zip and legacy/overlay.zip.
+Source: https://github.com/wine-mirror/wine/tree/wine-1.7.55
+License copy: licenses/Wine-LGPL-2.1.txt, from that Wine tag's COPYING.LIB.
+These archives also bundle libraries and fonts with their own copyrights and
+licenses. Their archive contents and existing notices remain intact. The included
+Red Hat font license is also copied to licenses/SIL-Open-Font-License.txt.
+The supplied registry already selects DirectDrawRenderer=gdi. No separate local
+Wine 6 registry patch is used. The upstream shell suppresses wineboot during
+setup, matching its browser demonstration configuration.
+
+BrowserFS
+Copyright John Vilk and BrowserFS contributors. MIT license.
+legacy/browserfs.boxedwine.js is the unmodified Boxedwine-supplied BrowserFS build.
+Its precise fork/package version is not embedded; the manifest fixes byte identity.
+Source: https://github.com/jvilk/BrowserFS
+Historical MIT license copy: licenses/BrowserFS-MIT.txt, from the v1.4.3 tag.
+Bundled Node/other module notices remain inside the JavaScript file.
+
+JSZip / Pako
+Copyright Stuart Knightley and contributors. JSZip's supplied header offers MIT
+or GPLv3; this distribution selects MIT. It includes Pako, with MIT/Zlib notices.
+legacy/jszip.min.js is unmodified, with its original header retained. Its exact
+bundled semantic version is not embedded; the manifest records byte identity.
+Source: https://github.com/Stuk/jszip and https://github.com/nodeca/pako
+Historical license texts: licenses/JSZip-LICENSE.txt (JSZip v2.4.0 license),
+licenses/Pako-MIT-Zlib.txt (Pako 0.2.5 license). These license-source versions do
+not assert that the bundled artifacts are precisely those package versions.
+
+Local integration and original game
+The host page and emulator.js are local integration code. The EXE and saves stay
+inside the tab's memory filesystem; there is no upload service. labirintos.zip
+contains only the original Labirintos.exe, unchanged. Its SHA-256 is
+f9d80e450356039c42060389120ba4ff2cbf7f320896db149c39edaa869f3a53
+The original game/art assets retain their authorship, credited in the title
+artwork to Roque Anderson — Softwares Educativos. Emulator mode applies no game
+hacks. Recreation-only speed and easy-calculation options do not patch the EXE.
+
+Observed compatibility
+The original menu rendered in Chrome; Enter started its original maze. The original maze and keyboard movement were also observed; a full seven-stage
+playthrough has not been verified.
+Original MIDI soundtrack output has not been verified. Browser audio activity
+alone does not distinguish WAV effects from MIDI playback. The recreation's
+separate Web Audio music implementation was tested independently.
