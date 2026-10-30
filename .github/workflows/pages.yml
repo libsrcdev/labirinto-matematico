@@ -20,6 +20,8 @@ jobs:
         run: python3 scripts/audit-public.py
       - name: Verify and prepare emulator
         run: python3 scripts/prepare-runtime.py
+      - name: Test runtime integrity checks
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Test recreation
         run: npm test
       - name: Build static site

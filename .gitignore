@@ -7,5 +7,4 @@ node_modules/
 !.env.example
 *.log
 __pycache__/
-emulator/legacy/
 emulator/labirintos.zip

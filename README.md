@@ -63,15 +63,16 @@ npm run build
 python3 serve.py
 ```
 
-The runtime preparation script downloads the official emulator files and checks
-all SHA-256 hashes against `emulator/manifest.json`. It packages the unchanged
-`original/Labirintos.exe` for the emulator. Downloads and build output are ignored
-by Git. The local server binds only to `127.0.0.1`.
+The official emulator files are included in `emulator/legacy/`. The runtime
+preparation script checks all SHA-256 hashes against `emulator/manifest.json`
+and packages the unchanged `original/Labirintos.exe` without network access.
+The generated game ZIP and build output are ignored by Git. The local server
+binds only to `127.0.0.1`.
 
 ## GitHub Pages
 
 Select **Settings → Pages → Source → GitHub Actions**. The included workflow
-runs the tests, verifies the emulator downloads, builds `dist/`, and deploys it
+runs the tests, verifies the included emulator files, builds `dist/`, and deploys it
 on pushes to `main`. Actions are pinned to commit hashes. The project uses
 relative asset paths, including under `/labirinto-matematico/`.
 

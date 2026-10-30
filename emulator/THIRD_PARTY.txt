@@ -7,6 +7,8 @@ The server dates the JavaScript/WASM files to 2020-05-03. It does not publish an
 exact source commit for those deployed binaries. This is NOT Boxedwine 26R1.
 manifest.json records the exact source URL, size and SHA-256 of every runtime file.
 scripts/prepare-runtime.py verifies those locked digests before packaging.
+The exact runtime files are vendored in Git so builds do not depend on the
+availability of the upstream download server. The recorded URLs retain provenance.
 
 Boxedwine
 Copyright Boxedwine contributors. GNU GPL version 2 or later.
