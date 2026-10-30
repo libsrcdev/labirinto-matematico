@@ -102,9 +102,9 @@ function frame(now){
         }});
       }else clock.reset();
       game.render(ctx);
-      if(scoresOpen)panel(['Recordes','',...readScores().map((s,i)=>`${i+1}.     ${s.score}`),'','Enter — voltar']);
-      else if(ended)panel(['Fim','Enter — reiniciar']);
-      else if(game.paused)panel(['Pausa','P — continuar']);
+      if(scoresOpen)panel(['Recordes','',...readScores().map((s,i)=>`${i+1}.     ${s.score}`),'','Enter - voltar']);
+      else if(ended)panel(['Fim','Enter - reiniciar']);
+      else if(game.paused)panel(['Pausa','P - continuar']);
     }
     if(loading)panel(['Carregando…']);
     if(loadError)panel([loadError]);

@@ -2,7 +2,7 @@ LABIRINTOS AUDIO
 
 The MIDI and WAV files in this directory are exact copies of the audio extracted
 from Labirintos.exe, with the original game resource names. Resource IDs 17 and
-18 are sound_click.wav and sound_abertura.wav respectively. Music IDs are 6–13.
+18 are sound_click.wav and sound_abertura.wav respectively. Music IDs are 6-13.
 
 ../audio.js plays the original note, tempo, velocity, program, pan, volume,
 expression, sustain, modulation and pitch-bend events through an original small

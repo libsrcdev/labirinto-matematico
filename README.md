@@ -1,7 +1,7 @@
 # Os Labirintos da Matemática
 
 Browser restoration of **Equações do 1º grau, versão 2003**, originally by
-**Roque Anderson — Softwares Educativos**.
+**Roque Anderson - Softwares Educativos**.
 
 The launcher offers two modes:
 
@@ -31,7 +31,7 @@ During the preservation work, a surviving download was found on Só Matemática.
   Só Matemática. This is a historical third-party reference, not the author's
   own website.
 - [Roque Anderson Saldanha Teixeira's 2015 UFMG dissertation, *Jogos digitais como artifício pedagógico na escola atual*](https://repositorio.ufmg.br/bitstreams/83f147af-76b0-4e3a-9783-57e05c493a42/download)
-  discusses *Labirintos da Matemática* in section 6.1.2 (printed pages 46–47),
+  discusses *Labirintos da Matemática* in section 6.1.2 (printed pages 46-47),
   describing its inspiration in Atari 2600's *Entombed*, equation-based doors,
   and seven stages. This documents the game's history; it does not establish
   that the dissertation's version is byte-identical to the recovered executable.

@@ -1,4 +1,4 @@
-EMULATOR PROVENANCE — WORKING LEGACY BUILD
+EMULATOR PROVENANCE - WORKING LEGACY BUILD
 
 Runtime identity
 The working player uses the official Boxedwine legacy browser distribution under
@@ -58,7 +58,7 @@ inside the tab's memory filesystem; there is no upload service. labirintos.zip
 contains only the original Labirintos.exe, unchanged. Its SHA-256 is
 f9d80e450356039c42060389120ba4ff2cbf7f320896db149c39edaa869f3a53
 The original game/art assets retain their authorship, credited in the title
-artwork to Roque Anderson — Softwares Educativos. Emulator mode applies no game
+artwork to Roque Anderson - Softwares Educativos. Emulator mode applies no game
 hacks. Recreation-only speed and easy-calculation options do not patch the EXE.
 
 Observed compatibility

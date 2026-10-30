@@ -22,7 +22,7 @@ const timer=setInterval(()=>{
   const r=canvas.getBoundingClientRect();
   const checks={onlyGame:doc.body.children.length===2&&doc.body.firstElementChild===canvas,externalControls:doc.querySelectorAll('button,header,footer,nav,dialog').length,noOverflow:doc.documentElement.scrollWidth===390&&doc.documentElement.scrollHeight===844,aspectRatio:Math.abs(r.width/r.height-2)<.01,originalHelp,originalStart,originalMovement};
   const ok=checks.onlyGame&&!checks.externalControls&&checks.noOverflow&&checks.aspectRatio&&originalHelp&&originalStart&&originalMovement;
-  result.textContent=(ok?'PASS':'FAIL')+' '+JSON.stringify(checks,null,2);document.title=(ok?'PASS':'FAIL')+' — game-only display';
- }catch(e){clearInterval(timer);result.textContent='FAIL '+e.stack;document.title='FAIL — game-only display';}
+  result.textContent=(ok?'PASS':'FAIL')+' '+JSON.stringify(checks,null,2);document.title=(ok?'PASS':'FAIL')+' - game-only display';
+ }catch(e){clearInterval(timer);result.textContent='FAIL '+e.stack;document.title='FAIL - game-only display';}
 },100);
 </script>

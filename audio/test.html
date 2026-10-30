@@ -27,9 +27,9 @@ try {
     document.querySelector('#result').textContent=JSON.stringify(results,null,2);
   }
   globalThis.audioTestResult={ok:true,results};
-  document.title='PASS — Labirintos audio';
+  document.title='PASS - Labirintos audio';
 }catch(error){
   globalThis.audioTestResult={ok:false,results,error:String(error),stack:error.stack};
-  document.querySelector('#result').textContent=JSON.stringify(globalThis.audioTestResult,null,2);document.title='FAIL — Labirintos audio';
+  document.querySelector('#result').textContent=JSON.stringify(globalThis.audioTestResult,null,2);document.title='FAIL - Labirintos audio';
 }
 </script>
